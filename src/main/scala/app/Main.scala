@@ -8,6 +8,6 @@ object Main extends App {
   jep.eval("print(s)")
   val java_string = jep.getValue("s").toString
   println("Java String:" + java_string)
-  jep.runScript("toy.py")
+  jep.runScript("src/main/python/demo.py")
   print(jep.getValue("asd"))
 }
