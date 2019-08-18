@@ -18,6 +18,4 @@ Test the installation running the demo.
 
     sbt run
 
-
-
 [sbt]: https://www.scala-sbt.org/release/docs/Setup.html
