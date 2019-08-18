@@ -18,4 +18,9 @@ Test the installation running the demo.
 
     sbt run
 
+If you use Intellij Idea,
+press Ctrl+Alt+Shift+S and add 
+the **lib** folder to *Project Settings -> Libraries*.
+
+
 [sbt]: https://www.scala-sbt.org/release/docs/Setup.html
