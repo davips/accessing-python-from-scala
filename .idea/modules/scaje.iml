@@ -19,5 +19,7 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.0:jar" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="Python 3.6 (scaje) interpreter library" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.13.0" level="application" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
