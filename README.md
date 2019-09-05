@@ -13,7 +13,8 @@ install jep:
     python3.6 -m venv venv
     source venv/bin/activate
     pip install jep
-
+    pip install -e ~/git/automl-paje/
+    
 Test the installation running the demo.
 
     sbt run
