@@ -14,10 +14,9 @@ object Main extends App {
     jep.getValue("DT.cs().serialize()")
   }
 
-  val dt = comp("paje.ml.element.modelling.supervised.classifier.dt", "DT")
-  println("[[" + dt + "]]")
-//  println("[[" + dt("criterion")("a") + "]]")
-  println("[[" + dt.getClass + "]]")
+  val obj = comp("package.module", "class")
+  println("[[" + obj + "]]")
+  println("[[" + obj.getClass + "]]")
 
   jep.runScript("src/main/python/demo.py")
   print(jep.getValue("asd"))
