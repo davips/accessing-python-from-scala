@@ -11,10 +11,10 @@ object Main extends App {
   def comp(module: String, name: String) = {
     import scala.jdk.CollectionConverters._
     jep.eval(s"from $module import $name")
-    jep.getValue("DT.cs().serialize()")
+    jep.getValue("Class.cs().serialize()")
   }
 
-  val obj = comp("package.module", "class")
+  val obj = comp("package.module", "Class")
   println("[[" + obj + "]]")
   println("[[" + obj.getClass + "]]")
 
